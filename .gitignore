@@ -1,3 +1,6 @@
 pkg/*
+*.swp
+**/*.swp
 *.gem
+Gemfile.lock
 .bundle
