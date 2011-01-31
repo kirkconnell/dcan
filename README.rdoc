@@ -1,0 +1,3 @@
+= DCan
+
+DCan is an authentication and authorization library for distributed rails applications. This gem is currently under development.
