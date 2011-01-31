@@ -1,3 +1,3 @@
-module Dcan
+module DCan
   # Your code goes here...
 end

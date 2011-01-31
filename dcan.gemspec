@@ -4,13 +4,13 @@ require "dcan/version"
 
 Gem::Specification.new do |s|
   s.name        = "dcan"
-  s.version     = Dcan::VERSION
+  s.version     = DCan::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Carlos Kirkconnell"]
   s.email       = ["carlos.kirkconnell@gmail.com"]
   s.homepage    = "http://rubygems.org/gems/dcan"
   s.summary     = %q{Centralized authentication and authorization gem for distributed rails applications.}
-  s.description = %q{A central authentication and authorization server distributes credential tokens through multiple rails applications via ActiveRecord. These credential tokens store cancan expressions which are evaluated on the clients to verify authorization. The credential tokens are digitally signed to prevent malicious manipulation of the ACL's.}
+  s.description = %q{A central authentication and authorization server distributes credential tokens through multiple rails applications via ActiveResource. These credential tokens store cancan expressions which are evaluated on the clients to verify authorization. The credential tokens are digitally signed to prevent malicious manipulation of the ACL's.}
 
   s.rubyforge_project = "dcan"
   
